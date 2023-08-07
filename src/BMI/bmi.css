@@ -1,0 +1,90 @@
+@media (min-width: 320px) {
+
+  #bmi {
+    position: relative;
+    top: -70px;
+  }
+
+  #form {
+    position: relative;
+    top: -20px;
+  }
+
+  input {
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    place-items: center;
+    font-size: 15px;
+    /* background-color: #8db48e; */
+    background-color: #ce5980;
+    border-color: #c1a9a9;
+   margin: 5px;
+    padding: 5px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+
+}
+/* TABLET VIEW */
+@media (min-width:768px) {
+  #bmi {
+    position: relative;
+  top: -70px;
+  }
+
+  #form {
+    position: relative;
+    top: -20px;
+  }
+
+  input {
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    place-items: center;
+    font-size: 15px;
+    /* background-color: #8db48e; */
+    background-color: #ce5980;
+    border-color: #c1a9a9;
+   margin: 5px;
+    padding: 5px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+    
+}
+
+@media (min-width:1025px) { 
+  #bmi {
+    position: relative;
+    top: -60px;
+  }
+
+
+  #form {
+    position: relative;
+    top: -40px;
+  }
+
+  input {
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    place-items: center;
+    font-size: 18px;
+    background-color: #ce5980;
+    border-color: #c1a9a9;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+}
