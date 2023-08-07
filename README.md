@@ -1,56 +1,21 @@
-# Getting started
+# BMI Calculator
 
-This project was created with `create-uplift-project`
+A simple BMI (Body Mass Index) calculator built with React. This calculator takes height and weight inputs, calculates your BMI, and provides information about your weight status.
 
-## Requirements
+## Features
 
-- Node JS
+- Input your height in centimeters and weight in kilograms.
+- Calculates your BMI based on the provided inputs.
+- Provides a classification of your weight status (Underweight, Normal Weight, Overweight, or Obese).
+- Offers guidance and messages based on your BMI classification.
 
-## Installation
+## Getting Started
 
-Install the dependencies by running:
+To use the BMI Calculator component in your React application, follow these steps:
 
-```bash
-npm install
-```
-
-> You can replace the default `npm` to your favorite package manager like [`yarn`](https://yarnpkg.com) or [`pnpm`](https://pnpm.io)
-
-## Development
-
-After the [installation](#installation), you can run
+1. Install React and React Router if not already installed:
 
 ```bash
+npm install react react-router-dom
+``` start 
 npm run dev
-```
-
-This will run the app in the development mode.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-## Build
-
-This will build the app for production in `dist` folder.\
-It correctly bundles React in product mode, optimizes the build for the best performance.
-
-```bash
-npm run build
-```
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-## lint
-
-This will check any errors or warnings in your codes, and will automatically fix by running:
-
-```bash
-npm run lint:fix
-```
-
-For more information, check [ESLint documentation](https://eslint.org/)
-
-## Learn More
-
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/)
