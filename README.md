@@ -17,5 +17,7 @@ To use the BMI Calculator component in your React application, follow these step
 
 ```bash
 npm install react react-router-dom
+
+cd p3-react-app
 ``` start 
 npm run dev
